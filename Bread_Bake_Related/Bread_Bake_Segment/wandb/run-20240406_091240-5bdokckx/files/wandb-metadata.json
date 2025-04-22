@@ -1,0 +1,15 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-04-06T01:12:43.565545",
+    "startedAt": "2024-04-06T01:12:40.686247",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\yabul\\OneDrive\\Desktop\\Jerry_Zone\\Bread_Bake_Segment\\train_segment_model.py",
+    "codePath": "train_segment_model.py"
+}

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>917</width>
+    <height>641</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>新增烘焙模式</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="cameraImageLabel">
+     <property name="maximumSize">
+      <size>
+       <width>960</width>
+       <height>540</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>20</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+	border: 5px groove red;
+	background-color: white;
+}</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QWidget" name="buttonLayout" native="true">
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>100</height>
+      </size>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="openCameraButton">
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+    border:2px groove gray;
+    border-radius:20px;
+}
+QWidget:hover{
+    border:2px groove gray;
+    border-radius:20px;
+    background-color: rgba(32, 8, 255, 20);
+}
+QWidget:pressed{
+    border:2px groove gray;
+    border-radius:20px;
+    background-color: rgba(32, 8, 255, 60);
+}</string>
+        </property>
+        <property name="text">
+         <string>開啟相機</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="startRecordButton">
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+    border:2px groove gray;
+    border-radius:20px;
+}
+QWidget:hover{
+    border:2px groove gray;
+    border-radius:20px;
+    background-color: rgba(32, 8, 255, 20);
+}
+QWidget:pressed{
+    border:2px groove gray;
+    border-radius:20px;
+    background-color: rgba(32, 8, 255, 60);
+}</string>
+        </property>
+        <property name="text">
+         <string>開始錄製</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="stopRecordButton">
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+    border:2px groove gray;
+    border-radius:20px;
+}
+QWidget:hover{
+    border:2px groove gray;
+    border-radius:20px;
+    background-color: rgba(32, 8, 255, 20);
+}
+QWidget:pressed{
+    border:2px groove gray;
+    border-radius:20px;
+    background-color: rgba(32, 8, 255, 60);
+}</string>
+        </property>
+        <property name="text">
+         <string>停止錄製</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
